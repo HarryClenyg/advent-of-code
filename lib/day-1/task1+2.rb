@@ -1,7 +1,7 @@
 def calorie_counter
   total_calories = []
   calories = []
-  data = File.foreach("../resources/aoc-data-1-1.txt") do |line| 
+  data = File.foreach("./aoc-data-1-1.txt") do |line| 
     calories.push(line.to_i)
   end
 

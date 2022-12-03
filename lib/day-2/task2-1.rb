@@ -1,6 +1,6 @@
 def rps
   turns = []
-  data = File.foreach("../resources/aoc-data-2-1.txt") do |line| 
+  data = File.foreach("./aoc-data-2-1.txt") do |line| 
     turns.push(line.to_str)
   end
 
